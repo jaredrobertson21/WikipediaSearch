@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed);
+
+body {
+  background-color: #381D6F;
+  color: #F1C40F;
+  font-family: "Fira Sans Extra Condensed";
+  font-size: 42px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.search {
+  position:absolute;
+  top: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.button {
+  background-color: #381D6F;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  background-color: #381D6F;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+input:hover {
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0px 0px 5px #fff;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+input[type=submit] {
+  background-color: #381D6F;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+input[type=submit]:active {
+  background-color: #381D6F;
+  border: 2px solid orange;
+  border-radius: 10px;
+  -webkit-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+  -webkit-transform: scale3d(0.97,0.97,0.97);
+  -ms-transform: scale3d(0.97,0.97,0.97);
+  transform:scale3d(0.97,0.97,0.97)
+}
+
+#results {
+  position: absolute;
+  top: 215px;
+  width: 100%;
+  color: #505050;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.article {
+  margin: 0% 7% 1% 7%;
+  padding: 5px 0px 0px 10px;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-left: 8px solid orange;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.article:hover {
+  border-left: 8px solid green;
+  -webkit-transform: scale3d(1.02,1.02,1.02);
+  -ms-transform: scale3d(1.02,1.02.1.02);
+  transform:scale3d(1.02,1.02,1.02);
+}
+
+.content {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 3px;
+}
+
+a:link { color: #505050;}
+a:visited { color: #505050;}
+
+#random {
+  font-size: 24px;
+}

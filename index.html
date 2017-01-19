@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Wikipedia</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="search text-center">
+        Search Wikipedia
+        <br>
+          <form>
+            <input type="text" name="searchString" id="search-string"></input>
+            <input type="submit" id="submit-btn"></input>
+          </form>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" id="random" style="color: #F1C40F">
+            Or go to a random article
+          </a>
+    </div>
+    <div id="results">
+    </div>
+</body>
+</html>
